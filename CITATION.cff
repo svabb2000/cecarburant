@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+message: "Dacă folosești acest dataset, citează sursa și păstrează atribuirea."
+title: "CeCarburant — prețuri carburanți România"
+abstract: "Prețuri consolidate la benzină, motorină și GPL, la nivel de stație, plus agregate naționale și istoric. Date din surse publice, licențiate CC BY 4.0."
+type: dataset
+license: CC-BY-4.0
+url: "https://cecarburant.ro"
+keywords:
+  - carburanți
+  - benzină
+  - motorină
+  - GPL
+  - România
+  - prețuri
+authors:
+  - name: "CeCarburant contributors"

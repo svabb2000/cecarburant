@@ -1,0 +1,53 @@
+{
+    "dataset": "cecarburant-station-prices",
+    "generated_at": "2026-11-06T11:39:34+00:00",
+    "license": "CC BY 4.0",
+    "attribution": "CeCarburant (https://cecarburant.ro)",
+    "homepage": "https://cecarburant.ro",
+    "repository": "https://github.com/svabb2000/cecarburant",
+    "mirror": "https://gitlab.com/svabb2000/cecarburant",
+    "third_party": {
+        "name": "PretCarburant.ro Open Data — Daily National Aggregates",
+        "license": "CC BY 4.0",
+        "doi": "10.5281/zenodo.19560194",
+        "url": "https://github.com/An3treiu/pretcarburant-data"
+    },
+    "counts": {
+        "stations": 7546,
+        "national_fuels": 6,
+        "national_history_rows": 1116
+    },
+    "schema": {
+        "stations_latest.csv": [
+            "station_id",
+            "brand",
+            "name",
+            "address",
+            "county",
+            "lat",
+            "lng",
+            "fuel_type",
+            "price",
+            "unit",
+            "source",
+            "source_updated_at",
+            "observed_at"
+        ],
+        "national_current.csv": [
+            "fuel_type",
+            "unit",
+            "min",
+            "avg",
+            "max",
+            "station_count"
+        ],
+        "national_history.csv": [
+            "date",
+            "fuel_type",
+            "price_min",
+            "price_avg",
+            "price_max",
+            "station_count"
+        ]
+    }
+}
