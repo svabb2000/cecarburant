@@ -1,33 +1,35 @@
-# CeCarburant Open Data
+# CeCarburant — date deschise
 
 **[cecarburant.ro](https://cecarburant.ro)** — prețuri la carburanți în România, reconciliate la nivel de stație.
 
-Generated at: 2026-11-06T11:39:34+00:00
+Generat la: 2026-11-06T12:16:53+00:00
 
-License: **CC BY 4.0** — attribution to CeCarburant.
-Modify the data freely, but keep this attribution and indicate changes.
+Licență: **CC BY 4.0** — atribuire către CeCarburant.
+Poți copia, modifica și redistribui liber datele, inclusiv comercial, cu condiția să păstrezi atribuirea și să menționezi modificările.
+
+Datele sunt publicate doar în acest repository și în oglinda GitLab; nu sunt găzduite pe serverul cecarburant.ro.
 
 ## Repository
 
-- Primary: https://github.com/svabb2000/cecarburant
-- Mirror: https://gitlab.com/svabb2000/cecarburant
+- Sursa principală: https://github.com/svabb2000/cecarburant
+- Oglindă: https://gitlab.com/svabb2000/cecarburant
 
-## Files
+## Fișiere
 
-- `stations_latest.csv` — 7546 station/fuel rows with coordinates and latest consolidated prices.
-- `national_current.csv` — 6 national aggregate rows.
-- `national_history.csv` — 1116 daily national aggregate rows.
-- `metadata.json` — machine-readable metadata and schema.
-- `SHA256SUMS` — checksums.
+- `stations_latest.csv` — 7546 rânduri stație/carburant, cu coordonate și ultimele prețuri consolidate.
+- `national_current.csv` — 6 rânduri de agregate naționale.
+- `national_history.csv` — 1116 rânduri de agregate naționale zilnice.
+- `metadata.json` — metadate și schemă, în format citibil de mașină.
+- `SHA256SUMS` — sume de control pentru verificarea fișierelor.
 
-## Third-party attribution
+## Atribuire terță
 
-`national_history.csv` is derived from **PretCarburant.ro Open Data — Daily National Aggregates** by Stoian Andrei-Șerban /
-PretCarburant.ro, licensed **CC BY 4.0**, DOI
-[10.5281/zenodo.19560194](https://doi.org/10.5281/zenodo.19560194), source
-https://github.com/An3treiu/pretcarburant-data. It is not station-level data and does not imply endorsement.
+`national_history.csv` este derivat din **PretCarburant.ro Open Data — Daily National Aggregates** de Stoian Andrei-Șerban /
+PretCarburant.ro, licențiat **CC BY 4.0**, DOI
+[10.5281/zenodo.19560194](https://doi.org/10.5281/zenodo.19560194), sursă
+https://github.com/An3treiu/pretcarburant-data. Nu reprezintă date la nivel de stație și nu implică aprobarea autorului.
 
-## Caveats
+## Limitări
 
-Prices are observations from public sources; they may lag behind the pump.
-Check `source_updated_at` and `observed_at` before making decisions.
+Prețurile sunt observații din surse publice și pot fi mai vechi decât prețul de la pompă.
+Verifică `source_updated_at` și `observed_at` înainte de a lua decizii.
